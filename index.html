@@ -1,98 +1,43 @@
 <html>
   <head>
-    <style>
-      .row {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 0 4px;
-      }
-
-      /* Create four equal columns that sits next to each other */
-      .column {
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 4px;
-      }
-
-      .column img {
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
-      }
-
-      /* Responsive layout - makes a two column-layout instead of four columns */
-      @media screen and (max-width: 800px) {
-        .column {
-          flex: 50%;
-          max-width: 50%;
-        }
-      }
-
-      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-      @media screen and (max-width: 600px) {
-        .column {
-          flex: 100%;
-          max-width: 100%;
-        }
-      }
-      #tribute-link {
-        color: #CC0004;
-        font-weight: bold;
-      }
-      #img-caption {
-        font-size: 35px;
-      }
-
-      .center{
-        margin: auto;
-        width: 50%;
-        padding: 10px;
-        text-align: center;
-      }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/tribute.css">
   </head>
   <body>
-    <div id="main">
+    <main id="main">
 
-    </div>
     <h1 id="title" class="center">Prince Rogers Nelson</h1>
-    </center>
-    <div id="img-div">
-      <div class="row">
-        <div class="column"></div>
-        <div class="column">
-          <img src="images/prince-portrate.jpeg" alt="Prince Portrait" id="image">
-          <img src="images/Pince-purple.jpeg" alt="Prince purple jacket" id="image">
-          <img src="images/prince-black.jpeg" alt="high black pants" id="image">
-          <img src="images/guitar_prince.jpeg" alt="guitar portrate" id="image">
-        </div>
-        <div class="column">
-          <img src="images/prince-blue.jpeg" alt="blue outfit" id="image">
-          <img src="images/prince-live.webp" alt="black crop top" id="image">
-          <img src="images/prince-white.jpeg" alt="all white outfit" id="image">
-          <img src="images/prince-yellow.jpeg" alt="yellow jacket" id="image">
+
+      <div id="img-div">
+        <div class="row">
+          <div class="column"></div>
+          <div class="column">
+            <img src="images/prince-portrate.jpeg" alt="Prince Portrait" id="image">
+            <img src="images/Pince-purple.jpeg" alt="Prince purple jacket" id="image">
+            <img src="images/prince-black.jpeg" alt="high black pants" id="image">
+            <img src="images/guitar_prince.jpeg" alt="guitar portrate" id="image">
           </div>
-          <div class="colume"
+          <div class="column">
+            <img src="images/prince-blue.jpeg" alt="blue outfit" id="image">
+            <img src="images/prince-live.webp" alt="black crop top" id="image">
+            <img src="images/prince-white.jpeg" alt="all white outfit" id="image">
+            <img src="images/prince-yellow.jpeg" alt="yellow jacket" id="image">
+          </div>
+          <div class="column"></div>
         </div>
-          <p id="img-caption" class="center"><em>One of the greatest musicians ever</em></p>
-      </div>
+      <p id="img-caption" class="center"><em>One of the greatest musicians ever</em></p>
+    </div>
 
       <div id="tribute-info" class="center">
         <p>"Purple Rain"
         (from "Purple Rain" soundtrack)</p>
-
         <p>I never meant to cause you any sorrow
         I never meant to cause you any pain
         I only wanted one time to see you laughing
         I only want to see you laughing in the purple rain</p>
-
         <p>Purple rain, purple rain
         Purple rain, purple rain
         Purple rain, purple rain</p>
-
         <p>I only want to see you bathing in the purple rain</p>
-
         <p>I never wanted to be your weekend lover
         I only wanted to be some kind of friend
         Baby, I could never steal you from another
@@ -101,25 +46,18 @@
         <p>Purple rain, purple rain
         Purple rain, purple rain
         Purple rain, purple rain</p>
-
         <p>I only want to see you underneath the purple rain</p>
-
         <p>Honey I know, I know, I know times are changing
         It's time we all reach out for something new
-        That means you too
-        You say you want a leader
-        But you can't seem to make up your mind
+        That means you too you say you want a leader</p>
+        <p>But you can't seem to make up your mind
         I think you better close it
         And let me guide you to the purple rain</p>
-
         <p>Purple rain, purple rain
         Purple rain, purple rain</p>
-
         <p>If you know what I'm singing about up here
         C'mon, raise your hand</p>
-
         <p>Purple rain, purple rain</p>
-
         <p>I only want to see you, only want to see you
         In the purple rain</p>
       </div>
@@ -129,6 +67,7 @@
           Learn more about prince
         </a>
       </div>
-    </div>
+    </main>
   </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
